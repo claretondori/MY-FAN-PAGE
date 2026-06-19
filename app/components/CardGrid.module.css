@@ -1,11 +1,8 @@
-.grid {
-  .gridContainer {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
+.gridContainer {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important;
+  gap: 2rem !important;
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
-}
-
 }
